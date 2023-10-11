@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-extension Color {
+public extension Color {
 	
 	static var colorFromAssetInPackage: Color {
 		Color("ColorInAsset", bundle: .module)
